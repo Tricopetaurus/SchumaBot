@@ -22,5 +22,7 @@ public final class Constants {
     public static final int LEFT_SECONDARY_PORT = 1;
     public static final int RIGHT_PRIMARY_PORT = 2;
     public static final int RIGHT_SECONDARY_PORT = 3;
+    public static final double DEFAULT_DEADBAND = 0.02;
+    public static final double DEFAULT_MAX_OUTPUT = 1.0;
   }
 }

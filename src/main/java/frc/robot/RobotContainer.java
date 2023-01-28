@@ -23,7 +23,7 @@ public class RobotContainer {
       new CommandXboxController(OperatorConstants.kDriverControllerPort);
 
   // The robot's subsystems and commands are defined here...
-  private final DriveSubsystem m_drive_subsystem = new DriveSubsystem();
+  private final DriveSubsystem m_drive_subsystem = new DriveSubsystem(true, true);
   private final DriveCommand m_drive_command = new DriveCommand(
     m_drive_subsystem,
     () -> m_controller.getLeftY(),
