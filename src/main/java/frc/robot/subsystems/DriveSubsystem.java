@@ -3,7 +3,6 @@
 // the WPILib BSD license file in the root directory of this project.
 
 /* TODOs and ASSUMPTIONS
- * - TODO: Check if we're using BRUSHLESS or BRUSHED motors
  * - TODO: Implement PID
  *    - https://github.com/REVrobotics/SPARK-MAX-Examples/blob/master/Java/Smart%20Motion%20Example/src/main/java/frc/robot/Robot.java
  * - TODO: Add odometer, making use of our encoder and gyro
